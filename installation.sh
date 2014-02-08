@@ -4,6 +4,7 @@ apt-get install build-essential
 apt-get install gcc
 apt-get install g++
 apt-get install libgtk2.0-dev
+apt-get install python-dev
 apt-get install cmake 
 apt-get install pkg-config
 apt-get install python
