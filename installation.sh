@@ -1,5 +1,6 @@
 #!bin/bash
 echo Extract the opencv folder /Documents/opencvsource/
+sudo -s
 apt-get install build-essential
 apt-get install gcc
 apt-get install g++
