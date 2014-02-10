@@ -1,19 +1,8 @@
 #!bin/bash
 echo Extract the opencv folder /Documents/opencvsource/
 sudo -s
-apt-get install -y build-essential
-apt-get install -y gcc
-apt-get install -y g++
-apt-get install -y libgtk2.0-dev
-apt-get install -y python-dev
-apt-get install -y cmake 
-apt-get install -y pkg-config
-apt-get install -y python
-apt-get install -y python-numpy
-apt-get install -y ffmpeg
-apt-get install -y libavcodec-dev
-apt-get install -y libavformat-dev 
-apt-get install -y libswscale-dev
+apt-get install -y build-essential && gcc && g++ && libgtk2.0-dev && python-dev && cmake && pkg-config && python && python-numpy 
+&& ffmpeg && libavcodec-dev && libavformat-dev && libswscale-dev
 cd ~/Documents/
 mkdir OpenCV-installation
 cd OpenCV-installation
