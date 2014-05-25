@@ -16,6 +16,6 @@ apt-get install -y libswscale-dev
 cd ~/Documents/
 mkdir OpenCV-installation
 cd OpenCV-installation
-cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX= ~/Documents/opencvsource
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX= ~/Documents/opencvsource -D BUILD_NEW_PYTHON_SUPPORT=ON -D BUILD_EXAMPLES=ON 
 make
 make install
