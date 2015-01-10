@@ -1,19 +1,19 @@
 OpenCV
 ======
 This is a bash script for installing OpenCV 2.7 or + in linux. Before running the script **save your extracted** OpenCV tarball in **~/Documents/opencvsource**. Just run the script as 
+<li>sudo bash installation.sh
 
-`sudo bash installation.sh`
 I have recently put up a support for python also. I needed it.
-Thats it ! . Any suggestions are welcome.
+That's it! . Any suggestions are welcome.
 
 ##Sample Program
-There is also a sample program with it. Please copy the CMakeLists.txt file and edit it in accordance with the file name of the cpp file. Then you should be passing the image as the first argument. 
+There is also a sample program with it. Please copy the CMakeLists.txt file and edit it in accordance with the file name of the *.cpp file. Then you should be passing the image as the first argument. 
 The steps are
 
-`cd test`
+<li>cd test
 
-`cmake .(cmake .. if the .cpp file is one folder above in directory structure)`
+<li>cmake .(cmake .. if the .cpp file is one folder above in directory structure)
 
-`make (there will be a make file, do this where the make file is accordingly.)`
+<li>make (there will be a make file, do this where the make file is.)
 
-`./first image-name.jgp`
+<li>./first image.png
