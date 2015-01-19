@@ -8,10 +8,15 @@ I have recently put up a support for python also. I needed it.
 That's it! . Any suggestions are welcome.
 
 ##Sample Program
-There is also a sample program with it. Please copy the CMakeLists.txt file and edit it in accordance with the file name of the *.cpp file. Then you should be passing the image as the first argument. 
-The steps are
+There is also a sample program with it, located in the test directory. Copy the
+CMakeLists.txt file to your working folder(where the cpp file(s)) are located.
+Then edit the cpp file in accordance with the filename of program. After that
+you can type in the following commands. The first one would make a MakeFile
+and the second part creates an executable. CMakeLists.txt files are very
+important part of the build process. It is always a good practice to copy 
+them between 'work' directories.
 
-<pre>cd test</pre>
-<pre>cmake .</pre> 
-<pre> make  </pre>
-<pre>./first image.png</pre>
+* <pre>cd test</pre>
+* <pre>cmake .</pre>
+* <pre> make</pre>
+* <pre>./first image.png</pre>
