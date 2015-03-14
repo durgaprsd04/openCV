@@ -20,7 +20,9 @@ to your **/etc/apt/sources.list**. Then type
 ## For Ubuntu 14.10 users.
 There is chance that you might get a build error regarding CODEC_ID. You can install opencv libraries by typing.
 * <pre> sudo apt-get install libopencv-dev </pre>
-* <pre> sudo apt-get install opencv-* <pre> (just to be sure. Don't attempt this if installation size is too high).
+* <pre> sudo apt-get install opencv-* <pre>
+* (just to be sure. Don't attempt this if installation size is too high).
+
 The rest is same as that mentioned in Sample Program session.
 
 ##Sample Program
